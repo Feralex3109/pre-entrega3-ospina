@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles.css">
+    <title>Tienda de Seguros</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>COTIZAR TU SEGURO</h1>
+    </header>
+
+    <input id="buscador" placeholder="Buscar por Nombre">
+    <button id="buscar">BUSCAR</button>
+    <button class="filtroCategoria" value="Aseguradora">Nombre de la Aseguradora</button>
+    <button class="filtroCategoria" value="TipoSeguro">Tipo de Seguro</button>
+    <div id="carrito"></div>
+    <div id="seguros"></div>
+
+    <section class="contenedor">
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">PREVISORA</span>
+                <img src="src/previsora.jpeg" alt="" class="img-item">
+                <span class="precio-item">$ 250.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">BOLIVAR</span>
+                <img src="src/bolivar.jpeg" alt="" class="img-item">
+                <span class="precio-item">$ 275.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">MAPFRE</span>
+                <img src="src/mapfre.jpeg" alt="" class="img-item">
+                <span class="precio-item">$ 300.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">SURA</span>
+                <img src="src/sura.jpeg" alt="" class="img-item">
+                <span class="precio-item">$ 285.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">ALLIANZ</span>
+                <img src="src/allianz.jpeg" alt="" class="img-item">
+                <span class="precio-item">$ 290.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">LIBERTY</span>
+                <img src="src/liberty.jpeg" alt="" class="img-item">
+                <span class="precio-item">$ 260.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">EQUIDAD</span>
+                <img src="src/equidad.jpeg" alt="" class=" img-item">
+                <span class="precio-item">$ 270.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">POSITIVA</span>
+                <img src="src/positiva.jpeg" alt="" class="img-item">
+                <span class="precio-item">$ 265.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+        <div class="carrito">
+            <div class="header-carrito">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+        <div class="carrito-items">
+        </div>
+        <div class="carrito-total">
+            <div class="fila">
+                <strong>Tu Total</strong>
+                <span class="carrito-precio-total">
+                    $ 0
+                </span>
+            </div>
+            <button class="btn-pagar">Pagar<i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+    </section>
+    <script src="./script1.js"></script>
+</body>
+
+</html>
